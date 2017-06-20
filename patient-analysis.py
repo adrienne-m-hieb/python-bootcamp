@@ -9,6 +9,9 @@ data = np.loadtxt(fname='data/inflammation1.csv', delimiter=',')
 print(data.shape)
 print(data)
 
+#Print just the first row of data getting day 1 data
+print(data[0])
+
 #Plotting data
 
 image-1=plt.plot(data)
