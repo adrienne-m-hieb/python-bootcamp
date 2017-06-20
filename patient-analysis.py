@@ -17,3 +17,5 @@ print(data[0])
 image-1=plt.plot(data)
 
 plt.show(image-1)
+
+#Adrienne's changes!
