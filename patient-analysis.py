@@ -15,6 +15,7 @@ print(data[0])
 #Plotting data
 
 image-1=plt.plot(data)
+# Test merge change
 
 plt.show(image-1)
 
