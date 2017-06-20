@@ -1,0 +1,55 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pcdm: <http://pcdm.org/models#> .
+@prefix schema: <http://schema.org/> .
+@prefix bibo: <http://purl.org/ontology/bibo/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix time: <http://www.w3.org/2006/time#> .
+@prefix bibtex: <http://purl.org/net/nknouf/ns/bibtex#> .
+@prefix ebucore: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+@prefix event: <http://purl.org/NET/c4dm/event.owl#> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+
+<http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/03/d1/dc/0e/03d1dc0e-2160-404f-a0f7-f923f1f61b72> a <http://pcdm.org/models#Object> ;
+   a <http://schema.org/Thing> ;
+   a <http://purl.org/ontology/bibo/Article> ;
+   dcterms:identifier "gsfcirGacp:19090" ;
+   bibo:doi "10.1088/0004-637X/734/1/7" ;
+   dcterms:title "THE SOLAR ORIGIN OF SMALL INTERPLANETARY TRANSIENTS" ;
+   schema:publication "ASTROPHYSICAL JOURNAL" ;
+   bibo:shortTitle "ASTROPHYS J" ,
+                   "Astrophys. J." ;
+   bibo:issn "0004-637X" ;
+   dcterms:publisher "IOP PUBLISHING LTD" ;
+   schema:localityName "BRISTOL" ;
+   time:year "2011" ;
+   time:month "JUN" ;
+   time:day "10" ;
+   bibo:volume "734" ;
+   bibo:issue "1" ;
+   bibo:locator "7" ;
+   bibo:numPages "10" ;
+   bibo:authorList "Rouillard, A. P.; Sheeley, N. R.; Cooper, T. J.; Davies, J. A.; Lavraud, B; Kilpua, E. K. J.; Skoug, R. M.; Steinberg, J. T.; Szabo, A.; Opitz, A.; Sauvaud, J. A." ;
+   bibo:abstract "In this paper, we present evidence for magnetic transients with small radial extents ranging from 0.025 to 0.118 AU measured in situ by the Solar-Terrestrial Relations Observatory (STEREO) and the near-Earth Advanced Composition Explorer (ACE) and Wind spacecraft. The transients considered in this study are much smaller (< 0.12 AU) than the typical sizes of magnetic clouds measured near 1 AU (similar to 0.23 AU). They are marked by low plasma beta values, generally lower magnetic field variance, short timescale magnetic field rotations, and are all entrained by high-speed streams by the time they reach 1 AU. We use this entrainment to trace the origin of these small interplanetary transients in coronagraph images. We demonstrate that these magnetic field structures originate as either small or large mass ejecta. The small mass ejecta often appear from the tip of helmet streamers as arch-like structures and other poorly defined white-light features (the so-called blobs). However, we have found a case of a small magnetic transient tracing back to a small and narrow mass ejection erupting from below helmet streamers. Surprisingly, one of the small magnetic structures traces back to a large mass ejection; in this case, we show that the central axis of the coronal mass ejection is along a different latitude and longitude to that of the in situ spacecraft. The small size of the transient is related to the in situ measurements being taken on the edges or periphery of a larger magnetic structure. In the last part of the paper, an ejection with an arch-like aspect is tracked continuously to 1 AU in the STEREO images. The associated in situ signature is not that of a magnetic field rotation but rather of a temporary reversal of the magnetic field direction. Due to its 'open-field topology,' we speculate that this structure is partly formed near helmet streamers due to reconnection between closed and open magnetic field lines. The implications of these observations for our understanding of the variability of the slow solar wind are discussed." ;
+   dcterms:subject "Astronomy & Astrophysics" ;
+   bibtex:hasKeywords "solar wind" ,
+					  "Sun: corona" ,
+					  "Sun: coronal mass ejections (CMEs)" ,
+					  "Sun: heliosphere" ,
+					  "CORONAL MASS EJECTIONS" ,
+					  "MAGNETIC CLOUD EXPANSION" ,
+					  "ALFVEN WAVES" ,
+					  "FLUX ROPE" ,
+					  "1 AU" ,
+					  "HELIOSPHERIC IMAGERS" ,
+					  "STEREO OBSERVATIONS" ,
+				      "WIND SPACECRAFT" ,
+					  "STREAMER BLOBS" ,
+					  "PLASMA" ;
+   dcterms:created "2011-06-20" ;
+   pcdm:memberOf <http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/8f/41/c5/81/8f41c581-bb86-4013-a17a-242045850c58> ;
+   dcterms:creator <http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/6d/d9/23/29/6dd92329-4c8d-4a58-a75e-3ec042b2a6c1> ;
+   pcdm:relatedObjectOf <http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/fd/1e/a3/64/fd1ea364-ae16-437f-a0eb-c3f599702b7f> .
+   
+   
