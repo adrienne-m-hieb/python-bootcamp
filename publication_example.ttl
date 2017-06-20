@@ -44,11 +44,10 @@
                       "1 AU" ,
                       "HELIOSPHERIC IMAGERS" ,
                       "STEREO OBSERVATIONS" ,
-                       "WIND SPACECRAFT" ,
+                      "WIND SPACECRAFT" ,
                       "STREAMER BLOBS" ,
                       "PLASMA" ;
    dcterms:created "2011-06-20" ;
    pcdm:memberOf <http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/8f/41/c5/81/8f41c581-bb86-4013-a17a-242045850c58> ;
    dcterms:creator <http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/6d/d9/23/29/6dd92329-4c8d-4a58-a75e-3ec042b2a6c1> ;
    pcdm:relatedObjectOf <http://gslibsandbox03.gsfc.nasa.gov:8080/fcrepo/rest/fd/1e/a3/64/fd1ea364-ae16-437f-a0eb-c3f599702b7f> .
-
